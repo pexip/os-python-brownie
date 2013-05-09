@@ -1,0 +1,13 @@
+Source: python-brownie
+Section: python
+Priority: optional
+Maintainer: Pexip AS <packaging@pexip.com>
+Build-Depends: debhelper (>= 8.0.0), python-all (>= 2.6.6-3~), python-setuptools
+Standards-Version: 3.9.2
+Homepage: http://github.com/DasIch/brownie/
+
+Package: python-brownie
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: Common utilities and datastructures for Python applications.
+ A collection of utilities for Python applications
