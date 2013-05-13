@@ -7,5 +7,8 @@
 %:
 	dh $@ --with python2
 
+override_dh_auto_clean:
+	python -B setup.py clean
+
 # Suppress tests, as tox isn't packaged
 override_dh_auto_test:
